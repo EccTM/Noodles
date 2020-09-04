@@ -1,0 +1,37 @@
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    color-scheme: dark; /* both supported */
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    transition: 0.2s ease-in-out;
+}
+
+button {
+    padding: 0;
+    border: none;
+    border-image: none;
+    -webkit-border-image: none;
+    background: none;
+}
+
+#theme-toggle-img {
+    height: 50px;
+    width: 50px;
+    content: url("../assets/ui/dark-mode.svg");
+}
+
+.invert-when-dark {
+    filter: invert(100%);
+}
+
+body {
+    background-color: black;
+}
+
+.card {
+    background-color: rgb(20, 20, 20);
+}
