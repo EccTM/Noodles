@@ -1,5 +1,5 @@
 # Noodles
-A Bootstrap 4.5 based startpage made for purpose, not aesthetics.
+A Bootstrap 5.1 based startpage made for purpose, not aesthetics.
 
 ## Origin
 I built this for personal use after checking out a few lovingly crafted startpages that featured giant clocks, animated backgrounds, carousels of artistic photography and responsive search boxes rigged to incorporate more search engines than I previously knew existed.
@@ -9,7 +9,7 @@ I built this for personal use after checking out a few lovingly crafted startpag
 ## Features
 * A screen-load of website icons
 * A button to toggle between Light and Dark themes
-* It remembers what theme you were using last (on that device)
+* It remembers what theme you were using last (per device)
 * ~~another clock because you forgot it's already in your taskbar somewhere~~
 
 ## Credits
