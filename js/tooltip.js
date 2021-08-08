@@ -1,4 +1,6 @@
-$(document).ready(function () {
-  // Initialize tooltips
-  $('[data-toggle="tooltip"]').tooltip();
+// Initialize tooltips
+var tooltipTriggerList = Array.prototype.slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
 });

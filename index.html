@@ -3,303 +3,319 @@
 
 <head>
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Noodles</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--  jQuery, Bootstrap JS, and Popper.js -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <!-- My CSS -->
-    <link id="theme-link" rel='stylesheet' type='text/css' href='css/style-light.css'>
-    <!-- My Scripts -->
-    <script src="js/tooltip.js"></script>
-    <script src="js/theme-toggle.js"></script>
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- My CSS -->
+    <link rel='stylesheet' type='text/css' href='css/stylesheet.css'>
+    <!--  Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container-fluid">
+        <div class="row mt-2">
+            <div class="col">
+                <!-- Empty Left Column -->
+            </div>
 
-        <div class="row mt-5">
-            <!-- Left Spacer Column -->
-            <div class="col"></div>
-
-            <!-- Center Content Column -->
             <div class="col-8">
-                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6">
+                <!-- Main Column -->
+                <div class="container-xl">
+                    <div class="row row-cols-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 g-2">
+                        <div class="col">
+                            <!-- Gmail Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/gmail.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Gmail">
+                                    <a href="https://mail.google.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
 
-                    <!-- Gmail Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/gmail.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Gmail">
-                                <a href="https://mail.google.com/" class="stretched-link"></a>
+                        <div class="col">
+                            <!-- Outlook Mail Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/outlook.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Outlook Mail">
+                                    <a href="https://outlook.live.com/mail/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Google Calendar Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/calendar.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Google Calendar">
+                                    <a href="https://calendar.google.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Google Drive Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/gdrive.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Google Drive">
+                                    <a href="https://drive.google.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Twitter Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/twitter.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Twitter">
+                                    <a href="https://twitter.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Reddit Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/reddit.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Reddit">
+                                    <a href="https://reddit.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Spotify Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/spotify.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Spotify">
+                                    <a href="https://spotify.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Netflix Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/netflix.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Netflix">
+                                    <a href="https://netflix.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Youtube Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/youtube.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Youtube">
+                                    <a href="https://youtube.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Twitch Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/twitch.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Twitch">
+                                    <a href="https://twitch.tv/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Discord Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/discord.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Discord">
+                                    <a href="https://discord.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Wikipedia Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid invertable" src="assets/icons/wikipedia.svg"
+                                    alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Wikipedia">
+                                    <a href="https://wikipedia.org/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- ArchWiki Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/archwiki.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Arch Wiki">
+                                    <a href="https://wiki.archlinux.org/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- PC Gaming Wiki Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/pcgw.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="PC Gaming Wiki">
+                                    <a href="https://www.pcgamingwiki.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Github Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid invertable" src="assets/icons/github.svg"
+                                    alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Github">
+                                    <a href="https://github.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- JSFiddle Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/jsfiddle.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="JSFiddle">
+                                    <a href="https://jsfiddle.net/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- StackOverflow Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/stackoverflow.svg"
+                                    alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="StackOverflow">
+                                    <a href="https://stackoverflow.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- StackExchange Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/stackexchange.svg"
+                                    alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="StackExchange">
+                                    <a href="https://stackexchange.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Interneting is Hard Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/interneting-is-hard.svg"
+                                    alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Interneting is Hard">
+                                    <a href="https://internetingishard.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Material.io Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/materialio.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Material.io">
+                                    <a href="https://material.io/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Icons8 Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/icons8.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Icons8">
+                                    <a href="https://icons8.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Flaticon Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/flaticon.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Flaticon">
+                                    <a href="https://flaticon.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Unsplash Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/unsplash.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="Unsplash">
+                                    <a href="https://unsplash.com/" class="stretched-link"></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <!-- Deviantart Overlay Card -->
+                            <div class="card shadow">
+                                <img class="card-img-top img-fluid" src="assets/icons/deviantart.svg" alt="Card image">
+                                <div class="card-img-overlay" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                    title="DeviantArt">
+                                    <a href="https://deviantart.com/" class="stretched-link"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Outlook Mail Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/outlook.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top"
-                                title="Outlook Mail">
-                                <a href="https://outlook.live.com/mail/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Google Calendar Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/calendar.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top"
-                                title="Google Calendar">
-                                <a href="https://calendar.google.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Google Drive Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/gdrive.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top"
-                                title="Google Drive">
-                                <a href="https://drive.google.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Twitter Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/twitter.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Twitter">
-                                <a href="https://twitter.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Reddit Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/reddit.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Reddit">
-                                <a href="https://reddit.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Spotify Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/spotify.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Spotify">
-                                <a href="https://spotify.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Netflix Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/netflix.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Netflix">
-                                <a href="https://netflix.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Youtube Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/youtube.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Youtube">
-                                <a href="https://youtube.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Twitch Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/twitch.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Twitch">
-                                <a href="https://twitch.tv/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Discord Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/discord.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Discord">
-                                <a href="https://discord.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Wikipedia Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid invert-when-dark" src="assets/icons/wikipedia.svg"
-                                alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Wikipedia">
-                                <a href="https://wikipedia.org/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ArchWiki Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/archwiki.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Arch Wiki">
-                                <a href="https://wiki.archlinux.org/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- PC Gaming Wiki Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/pcgw.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top"
-                                title="PC Gaming Wiki">
-                                <a href="https://www.pcgamingwiki.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Github Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid invert-when-dark" src="assets/icons/github.svg"
-                                alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Github">
-                                <a href="https://github.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- JSFiddle Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/jsfiddle.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="JSFiddle">
-                                <a href="https://jsfiddle.net/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- StackOverflow Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/stackoverflow.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top"
-                                title="StackOverflow">
-                                <a href="https://stackoverflow.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- StackExchange Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/stackexchange.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top"
-                                title="StackExchange">
-                                <a href="https://stackexchange.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Interneting is Hard Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/interneting-is-hard.svg"
-                                alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top"
-                                title="Interneting is Hard">
-                                <a href="https://internetingishard.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Material.io Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/materialio.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top"
-                                title="Material.io">
-                                <a href="https://material.io/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Icons8 Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/icons8.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Icons8">
-                                <a href="https://icons8.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Flaticon Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/flaticon.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Flaticon">
-                                <a href="https://flaticon.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Unsplash Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/unsplash.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="Unsplash">
-                                <a href="https://unsplash.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Deviantart Overlay Card -->
-                    <div class="col mb-4">
-                        <div class="card shadow">
-                            <img class="card-img-top img-fluid" src="assets/icons/deviantart.svg" alt="Card image">
-                            <div class="card-img-overlay" data-toggle="tooltip" data-placement="top" title="DeviantArt">
-                                <a href="https://deviantart.com/" class="stretched-link"></a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
 
-            <!-- Right Spacer Column -->
             <div class="col">
-                <button type='button' class="btn-theme-toggle">
-                    <img id='theme-toggle-img' src="assets/ui/auto-mode.svg"></img>
-                </button>
+                <!-- Empty Right Column -->
             </div>
-
         </div>
     </div>
+
+    <!-- Floating Theme Toggle -->
+    <div class="position-absolute bottom-0 end-0 m-2">
+        <button type='button' class="btn btn-theme-toggle" onclick="themeToggle()">
+            <img id='btn-theme-toggle-img' src="assets/ui/dark-mode.svg"></img>
+        </button>
+    </div>
+
+    <!-- My Scripts -->
+    <script src="js/tooltip.js"></script>
+    <script src="js/theme-toggle.js"></script>
 </body>
 
 </html>

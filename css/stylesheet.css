@@ -1,0 +1,49 @@
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    color-scheme: light;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    transition: 0.2s ease-in-out;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.body-dark {
+    background-color: rgb(0, 0, 0);
+}
+
+.invertable {
+    
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+}
+
+.card-dark {
+    background-color: rgb(20, 20, 20);
+}
+
+.btn-theme-toggle {
+    padding: 0;
+    border: none;
+    border-image: none;
+    -webkit-border-image: none;
+    background: none;
+}
+
+#btn-theme-toggle-img {
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+}
