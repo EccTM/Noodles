@@ -1,0 +1,124 @@
+{
+    "entries": [
+        {
+            "name": "Gmail",
+            "image": "assets/icons/gmail.svg",
+            "url": "https://mail.google.com/"
+        },
+        {
+            "name": "Outlook Mail",
+            "image": "assets/icons/outlook.svg",
+            "url": "https://outlook.live.com/mail/"
+        },
+        {
+            "name": "Google Calendar",
+            "image": "assets/icons/calendar.svg",
+            "url": "https://calendar.google.com/"
+        },
+        {
+            "name": "Google Drive",
+            "image": "assets/icons/gdrive.svg",
+            "url": "https://drive.google.com/"
+        },
+        {
+            "name": "Twitter",
+            "image": "assets/icons/twitter.svg",
+            "url": "https://twitter.com/"
+        },
+        {
+            "name": "Reddit",
+            "image": "assets/icons/reddit.svg",
+            "url": "https://reddit.com/"
+        },
+        {
+            "name": "Spotify",
+            "image": "assets/icons/spotify.svg",
+            "url": "https://spotify.com/"
+        },
+        {
+            "name": "Netflix",
+            "image": "assets/icons/netflix.svg",
+            "url": "https://netflix.com/"
+        },
+        {
+            "name": "Youtube",
+            "image": "assets/icons/youtube.svg",
+            "url": "https://youtube.com/"
+        },
+        {
+            "name": "Twitch",
+            "image": "assets/icons/twitch.svg",
+            "url": "https://twitch.tv/"
+        },
+        {
+            "name": "Discord",
+            "image": "assets/icons/discord.svg",
+            "url": "https://discord.com/"
+        },
+        {
+            "name": "Wikipedia",
+            "image": "assets/icons/wikipedia.svg",
+            "url": "https://wikipedia.org/"
+        },
+        {
+            "name": "Arch Wiki",
+            "image": "assets/icons/archwiki.svg",
+            "url": "https://wiki.archlinux.org/"
+        },
+        {
+            "name": "PC Gaming Wiki",
+            "image": "assets/icons/pcgw.svg",
+            "url": "https://www.pcgamingwiki.com/"
+        },
+        {
+            "name": "Github",
+            "image": "assets/icons/github.svg",
+            "url": "https://github.com/"
+        },
+        {
+            "name": "JSFiddle",
+            "image": "assets/icons/jsfiddle.svg",
+            "url": "https://jsfiddle.net/"
+        },
+        {
+            "name": "StackOverflow",
+            "image": "assets/icons/stackoverflow.svg",
+            "url": "https://stackoverflow.com/"
+        },
+        {
+            "name": "StackExchange",
+            "image": "assets/icons/stackexchange.svg",
+            "url": "https://stackexchange.com/"
+        },
+        {
+            "name": "Interneting is Hard",
+            "image": "assets/icons/interneting-is-hard.svg",
+            "url": "https://internetingishard.com/"
+        },
+        {
+            "name": "Material.io",
+            "image": "assets/icons/materialio.svg",
+            "url": "https://material.io/"
+        },
+        {
+            "name": "Icons8",
+            "image": "assets/icons/icons8.svg",
+            "url": "https://icons8.com/"
+        },
+        {
+            "name": "Flaticon",
+            "image": "assets/icons/flaticon.svg",
+            "url": "https://flaticon.com/"
+        },
+        {
+            "name": "Unsplash",
+            "image": "assets/icons/unsplash.svg",
+            "url": "https://unsplash.com/"
+        },
+        {
+            "name": "DeviantArt",
+            "image": "assets/icons/deviantart.svg",
+            "url": "https://deviantart.com/"
+        }
+    ]
+}
